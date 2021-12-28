@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package security;
+
+
+message SecurityConfig {
+    string clusterKey = 1;
+    string namespace = 2;
+    string podName = 3;
+    string clientId = 4;
+    string urls = 5;
+    string subject = 6;
+    string ownerName = 7;
+    string ownerKind = 8;
+    string ddd = 9;
+}
