@@ -4,7 +4,7 @@ load("@proxy_wasm_cpp_sdk//bazel/wasm:wasm.bzl", "wasm_cc_binary")
 licenses(["notice"])  # Apache 2
 
 wasm_cc_binary(
-    name = "envoy_filter_http_wasm_example.wasm",
+    name = "envoy_filter_http_wasm.wasm",
     # srcs = [
     #     # "plugin.cc",
     #     # "plugin.h",
